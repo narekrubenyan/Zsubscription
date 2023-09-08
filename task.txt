@@ -1,0 +1,25 @@
+Create a simple subscription platform(only RESTful APIs with MySQL) in which users can subscribe to a website (there can be multiple websites in the system). Whenever a new post published on a particular website, all it's subscribers shall receive an email with the post title and description in it.
+
+Must have/use:
+Write migrations store the data in required tables.
+Endpoint to publish a "post" on a "particular website".
+Endpoint to make a user subscribe to a "particular website" with all the tiny validations included in it.
+Use of command to send email to the subscribers (feel free to use log driver for emails).
+Use of queues to schedule sending in background.
+No duplicate stories should get sent to subscribers.
+Deploy the code on a public github repository.
+
+Optional:
+Seeded data of the websites.
+Open API documentation (or) Postman collection demonstrating available APIs & their usage.
+Use of latest laravel version.
+Use of contracts & services.
+Use of caching wherever applicable.
+Use of events for actions like maybe subscribe him.
+
+Note:
+From all the "Must have/use" pointers, if one (or more) pointers are not applicable in the task, please mention in detail why this cannot be applied.
+Please provide special instructions(if any) to make to code base run on our local/remote platform.
+
+IMPORTANT:
+Do not use "ZET Digital" name in titles, descriptions or the code itself. This helps others to find the libraries that are really related to our services and/or are developed and maintained by our team.
