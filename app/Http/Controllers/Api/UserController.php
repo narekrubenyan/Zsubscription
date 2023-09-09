@@ -19,7 +19,7 @@ class UserController extends Controller
     /**
      * response
      *
-     * @var ResponseRepository
+     * @var ResponseService
      */
     private $response;
 

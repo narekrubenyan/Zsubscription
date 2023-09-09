@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->unsignedBigInteger('website_id');
+            $table->boolean('is_send')->default(0);
             $table->timestamps();
         });
     }

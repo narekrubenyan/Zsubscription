@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('post/create', [PostController::class, 'create']);
 Route::post('user/attach', [UserController::class, 'attach']);
+
