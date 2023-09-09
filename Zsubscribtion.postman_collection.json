@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "fbb0722a-1bb9-405d-b6fb-d9534510234b",
+		"name": "Zsubscribtion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22426442"
+	},
+	"item": [
+		{
+			"name": "Create a post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://zsubscription.loc/api/post/create?title=cvaegvrg&description=text text&website_id=2",
+					"protocol": "http",
+					"host": [
+						"zsubscription",
+						"loc"
+					],
+					"path": [
+						"api",
+						"post",
+						"create"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "cvaegvrg"
+						},
+						{
+							"key": "description",
+							"value": "text text"
+						},
+						{
+							"key": "website_id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Attach user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://zsubscription.loc/api/user/attach?user_id=2&website_id=2",
+					"protocol": "http",
+					"host": [
+						"zsubscription",
+						"loc"
+					],
+					"path": [
+						"api",
+						"user",
+						"attach"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "2"
+						},
+						{
+							"key": "website_id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
